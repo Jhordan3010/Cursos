@@ -1,0 +1,45 @@
+/* selector{
+    propidad:valor;
+} */
+/* CSS SELECTOR 
+
+-Universal */
+/* *{
+    color: red;
+} */
+
+/* -de tipo -  */
+/* p{
+    color: red;
+    
+} */
+
+
+/* -clases */
+/* .titulo-h2{
+    color: red;
+} */
+
+
+/*ID*/
+/* #id-elemento{
+    color:red;
+} */
+
+
+/* -por atributo  */
+/* [rancio = "siiu"]{
+    color:red;
+} */
+
+
+/* descendiente */
+.h2-class p{
+    color: red;
+}
+h2 b{
+    color: blue;
+}
+
+/* pseudo-clases */
+
