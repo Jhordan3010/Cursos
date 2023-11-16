@@ -29,4 +29,4 @@ const gato = new Animal("gato",2,"negro");
 const pajaro = new Animal("pajaro",1,"verde");
 
 perro.modificarRaza = "Pedro";
-document.write(perro.getRaza);
+document.write(perro.edad);
