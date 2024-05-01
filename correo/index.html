@@ -1,18 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Correo Electrónico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .factura {
+            width: 600px;
+            margin: 0 auto;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <h2>Formulario de Correo Electrónico</h2>
-    <form id="emailForm">
-        <label for="email">Correo Electrónico:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        <button type="button" onclick="enviarCorreo()">Enviar</button>
-    </form>
-
-    <script src="enviarcorreo.js"></script>
+    <div class="factura">
+        <div class="header">
+            <h1>FACTURA</h1>
+        </div>
+        <div class="section">
+            <label>Nombre o Razón social:</label><br>
+            <input type="text"><br>
+            <label>RIF: C.I.:</label><br>
+            <input type="text"><br>
+            <label>Domicilio Fiscal:</label><br>
+            <input type="text"><br>
+            <label>Teléfono:</label><br>
+            <input type="text">
+        </div>
+        <div class="section">
+            <table>
+                <tr>
+                    <th>Cant.</th>
+                    <th>DESCRIPCIÓN</th>
+                    <th>Precio Unit</th>
+                    <th>Total Bs</th>
+                </tr>
+                <!-- Aquí puedes agregar más filas según sea necesario -->
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
+
