@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 20 may 2024, 8:59:36 a. m.
+    Created on : 20 may 2024, 11:43:37 a. m.
     Author     : jhord
 --%>
 
@@ -12,8 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World! desde html</h1>
-        <% String h = "Hola desde java" ;%>
-        <%=h %>
+        <h1>Hello World!</h1>
+        <% String h = "Hola java";%>
+        <%= h %>
+
     </body>
 </html>
