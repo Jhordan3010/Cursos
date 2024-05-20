@@ -1,4 +1,4 @@
-package holamundo.com.mavenproject1;
+package holamundo.com.holamundo;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;

@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 20 may 2024, 11:43:37 a. m.
+    Created on : 20 may 2024, 12:00:51 p. m.
     Author     : jhord
 --%>
 
@@ -9,14 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Hola</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Hello World! en html</h1>
         <% String h = "Hola java";%>
         <%= h %>
-        <input type="text" id="nombreCampo" name="nombreCampo" placeholder="Texto de ejemplo">
-
-
     </body>
 </html>
