@@ -15,6 +15,8 @@
         <h1>Hello World!</h1>
         <% String h = "Hola java";%>
         <%= h %>
+        <input type="text" id="nombreCampo" name="nombreCampo" placeholder="Texto de ejemplo">
+
 
     </body>
 </html>
