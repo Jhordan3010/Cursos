@@ -4,16 +4,30 @@
     Author     : jhord
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Hola</title>
+        <title>Ejemplo de JSP</title>
     </head>
     <body>
-        <h1>Hello World! en html</h1>
-        <% String h = "Hola java";%>
-        <%= h %>
+        <h1>Entrada de Texto y Cálculo</h1>
+
+        <% String h = "Hola java"; %>
+        <p>Valor inicial: <%= h %></p>
+
+        <form action="procesar.jsp" method="post">
+            <input type="text" id="num" name="num" placeholder="Ingrese un número">
+            <input type="text" id="num2" name="num2" placeholder="Ingrese otro número">
+            <input type="submit" value="Calcular">
+        </form>
+
+        
+
+        
+
+       
     </body>
 </html>
+
